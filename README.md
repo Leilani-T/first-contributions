@@ -186,13 +186,21 @@ replacing `your-branch-name` with the name of the branch you created earlier.
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+As of September 13, 2024:
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+If you go to your repository on GitHub, you'll navigate to the `Pull requests` tab.
 
-Now submit the pull request.
+<img style="float: right;" src="./images/makePullRequest.png" alt="create pull request" />
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+Click on `New` to create a new pull request.
+
+The base repository is the author's repository and its base branch. The head repository is your repository. Since we have branched the main branch, we want to click on the `compare` drop down and select your newly named branch.
+
+<img style="float: right;" src="./images/selectBranch.png" alt="create pull request" />
+
+We click on the `Create pull request` button.
+
+You will be able to add a title and a description. When completed click on `Create pull request` and you will have offically created a pull request.
 
 Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
 
